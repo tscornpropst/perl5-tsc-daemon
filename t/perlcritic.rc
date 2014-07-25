@@ -1,0 +1,20 @@
+severity = 1
+color = 1
+verbose = 8
+# this one goes to 11
+#verbose = 11
+
+# Do not load these policies
+[-CodeLayout::ProhibitParensWithBuiltins]
+[-CodeLayout::RequireTidyCode]
+[-ControlStructures::ProhibitCStyleForLoops]
+[-ControlStructures::ProhibitPostfixControls]
+[-ControlStructures::ProhibitUnlessBlocks]
+#[-Miscellanea::RequireRcsKeywords]
+[-Subroutines::ProhibitBuiltinHomonyms]
+[-ValuesAndExpressions::ProhibitNoisyQuotes]
+[-ValuesAndExpressions::RequireInterpolationOfMetachars]
+#[-ValuesAndExpressions::ProhibitMagicNumbers]
+[-Variables::ProhibitPunctuationVars]
+[InputOutput::RequireCheckedSyscalls]
+exclude_functions = print
